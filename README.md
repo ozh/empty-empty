@@ -1,6 +1,6 @@
-# test/test
+# empty/empty
 
-> composer require test/test
+> composer require empty/empty
 
 Composer package with no code and no dependency
 
@@ -11,8 +11,8 @@ Testing purposes.
 Also, I found that an easy way to regenerate a `composer.lock` file and its `content-hash` was to do:
 
 ```bash
-composer require test/test
-composer remove test/test
+composer require empty/empty
+composer remove empty/empty
 ```
 
 (before this feature is added to Composer 2.0)
