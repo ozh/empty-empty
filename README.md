@@ -15,4 +15,4 @@ composer require empty/empty
 composer remove empty/empty
 ```
 
-(before this feature is added to Composer 2.0)
+(alternative: `composer update nothing`)
